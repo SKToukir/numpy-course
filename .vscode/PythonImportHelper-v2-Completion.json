@@ -1,0 +1,182 @@
+[
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "main.numpy.data_types",
+        "description": "main.numpy.data_types",
+        "peekOfCode": "arr = np.arange(10, dtype=np.int8)\nprint(arr)\n# Type casting\narr2 = np.arange(10,20, dtype=\"d\")\nprint(arr2)",
+        "detail": "main.numpy.data_types",
+        "documentation": {}
+    },
+    {
+        "label": "arr2",
+        "kind": 5,
+        "importPath": "main.numpy.data_types",
+        "description": "main.numpy.data_types",
+        "peekOfCode": "arr2 = np.arange(10,20, dtype=\"d\")\nprint(arr2)",
+        "detail": "main.numpy.data_types",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "main.numpy.numpy_learn",
+        "description": "main.numpy.numpy_learn",
+        "peekOfCode": "arr = np.zeros(4)\nprint(arr)\narr1 = np.zeros((3,4))\nprint(arr1)\n# Ones\narr_one = np.ones((3,4))\nprint(arr_one)\n# Empty\narr_empt = np.empty(4)\nprint(arr_empt)",
+        "detail": "main.numpy.numpy_learn",
+        "documentation": {}
+    },
+    {
+        "label": "arr1",
+        "kind": 5,
+        "importPath": "main.numpy.numpy_learn",
+        "description": "main.numpy.numpy_learn",
+        "peekOfCode": "arr1 = np.zeros((3,4))\nprint(arr1)\n# Ones\narr_one = np.ones((3,4))\nprint(arr_one)\n# Empty\narr_empt = np.empty(4)\nprint(arr_empt)\n# Range\narr_range = np.arange(4)",
+        "detail": "main.numpy.numpy_learn",
+        "documentation": {}
+    },
+    {
+        "label": "arr_one",
+        "kind": 5,
+        "importPath": "main.numpy.numpy_learn",
+        "description": "main.numpy.numpy_learn",
+        "peekOfCode": "arr_one = np.ones((3,4))\nprint(arr_one)\n# Empty\narr_empt = np.empty(4)\nprint(arr_empt)\n# Range\narr_range = np.arange(4)\nprint(arr_range)\n# Diagonal elements filled with 1's\narr_dia = np.eye(5,5)",
+        "detail": "main.numpy.numpy_learn",
+        "documentation": {}
+    },
+    {
+        "label": "arr_empt",
+        "kind": 5,
+        "importPath": "main.numpy.numpy_learn",
+        "description": "main.numpy.numpy_learn",
+        "peekOfCode": "arr_empt = np.empty(4)\nprint(arr_empt)\n# Range\narr_range = np.arange(4)\nprint(arr_range)\n# Diagonal elements filled with 1's\narr_dia = np.eye(5,5)\nprint(arr_dia)\n# Array with separated values of spaced linearly line (linspace)\nar_lin = np.linspace(3, 30, num=10)",
+        "detail": "main.numpy.numpy_learn",
+        "documentation": {}
+    },
+    {
+        "label": "arr_range",
+        "kind": 5,
+        "importPath": "main.numpy.numpy_learn",
+        "description": "main.numpy.numpy_learn",
+        "peekOfCode": "arr_range = np.arange(4)\nprint(arr_range)\n# Diagonal elements filled with 1's\narr_dia = np.eye(5,5)\nprint(arr_dia)\n# Array with separated values of spaced linearly line (linspace)\nar_lin = np.linspace(3, 30, num=10)\nprint(ar_lin)",
+        "detail": "main.numpy.numpy_learn",
+        "documentation": {}
+    },
+    {
+        "label": "arr_dia",
+        "kind": 5,
+        "importPath": "main.numpy.numpy_learn",
+        "description": "main.numpy.numpy_learn",
+        "peekOfCode": "arr_dia = np.eye(5,5)\nprint(arr_dia)\n# Array with separated values of spaced linearly line (linspace)\nar_lin = np.linspace(3, 30, num=10)\nprint(ar_lin)",
+        "detail": "main.numpy.numpy_learn",
+        "documentation": {}
+    },
+    {
+        "label": "ar_lin",
+        "kind": 5,
+        "importPath": "main.numpy.numpy_learn",
+        "description": "main.numpy.numpy_learn",
+        "peekOfCode": "ar_lin = np.linspace(3, 30, num=10)\nprint(ar_lin)",
+        "detail": "main.numpy.numpy_learn",
+        "documentation": {}
+    },
+    {
+        "label": "var",
+        "kind": 5,
+        "importPath": "main.numpy.random_array",
+        "description": "main.numpy.random_array",
+        "peekOfCode": "var = np.random.rand(2)\nprint(var)\nvar1 = np.random.rand(2,4)\nprint(var1)\n# Randn() function, generate random numbers\nvar2 = np.random.randn(5)\nprint(var2)\nvar3 = np.random.ranf((2,1))\nprint()\nprint(var3)",
+        "detail": "main.numpy.random_array",
+        "documentation": {}
+    },
+    {
+        "label": "var1",
+        "kind": 5,
+        "importPath": "main.numpy.random_array",
+        "description": "main.numpy.random_array",
+        "peekOfCode": "var1 = np.random.rand(2,4)\nprint(var1)\n# Randn() function, generate random numbers\nvar2 = np.random.randn(5)\nprint(var2)\nvar3 = np.random.ranf((2,1))\nprint()\nprint(var3)\n# Randint() function, generate random numbers\nvar4 = np.random.randint(5, 20, 5)",
+        "detail": "main.numpy.random_array",
+        "documentation": {}
+    },
+    {
+        "label": "var2",
+        "kind": 5,
+        "importPath": "main.numpy.random_array",
+        "description": "main.numpy.random_array",
+        "peekOfCode": "var2 = np.random.randn(5)\nprint(var2)\nvar3 = np.random.ranf((2,1))\nprint()\nprint(var3)\n# Randint() function, generate random numbers\nvar4 = np.random.randint(5, 20, 5)\nprint(var4)",
+        "detail": "main.numpy.random_array",
+        "documentation": {}
+    },
+    {
+        "label": "var3",
+        "kind": 5,
+        "importPath": "main.numpy.random_array",
+        "description": "main.numpy.random_array",
+        "peekOfCode": "var3 = np.random.ranf((2,1))\nprint()\nprint(var3)\n# Randint() function, generate random numbers\nvar4 = np.random.randint(5, 20, 5)\nprint(var4)",
+        "detail": "main.numpy.random_array",
+        "documentation": {}
+    },
+    {
+        "label": "var4",
+        "kind": 5,
+        "importPath": "main.numpy.random_array",
+        "description": "main.numpy.random_array",
+        "peekOfCode": "var4 = np.random.randint(5, 20, 5)\nprint(var4)",
+        "detail": "main.numpy.random_array",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "main.video_opencv",
+        "description": "main.video_opencv",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nwhile(cap.isOpened):\n    ret, frame = cap.read()\n    if ret == True:\n        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)\n        cv2.imshow('Frame',gray)\n        if cv2.waitKey(1) & 0xFF == ord('q'):\n            break\n    else:\n        break",
+        "detail": "main.video_opencv",
+        "documentation": {}
+    },
+    {
+        "label": "cap",
+        "kind": 5,
+        "importPath": "main.video_record_opencv",
+        "description": "main.video_record_opencv",
+        "peekOfCode": "cap = cv2.VideoCapture(0)\nfourcc = cv2.VideoWriter_fourcc(*\"XVID\")\nout = cv2.VideoWriter(\"res/output.avi\",fourcc,20.0,(640,480))\nwhile(cap.isOpened()):\n    ret, frame = cap.read()\n    if ret == True:\n        out.write(frame)\n        gray = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)\n        cv2.imshow('frame', gray)\n        if cv2.waitKey(1) & 0xFF == ord('q'):",
+        "detail": "main.video_record_opencv",
+        "documentation": {}
+    },
+    {
+        "label": "fourcc",
+        "kind": 5,
+        "importPath": "main.video_record_opencv",
+        "description": "main.video_record_opencv",
+        "peekOfCode": "fourcc = cv2.VideoWriter_fourcc(*\"XVID\")\nout = cv2.VideoWriter(\"res/output.avi\",fourcc,20.0,(640,480))\nwhile(cap.isOpened()):\n    ret, frame = cap.read()\n    if ret == True:\n        out.write(frame)\n        gray = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)\n        cv2.imshow('frame', gray)\n        if cv2.waitKey(1) & 0xFF == ord('q'):\n            break",
+        "detail": "main.video_record_opencv",
+        "documentation": {}
+    },
+    {
+        "label": "out",
+        "kind": 5,
+        "importPath": "main.video_record_opencv",
+        "description": "main.video_record_opencv",
+        "peekOfCode": "out = cv2.VideoWriter(\"res/output.avi\",fourcc,20.0,(640,480))\nwhile(cap.isOpened()):\n    ret, frame = cap.read()\n    if ret == True:\n        out.write(frame)\n        gray = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)\n        cv2.imshow('frame', gray)\n        if cv2.waitKey(1) & 0xFF == ord('q'):\n            break\n    else:",
+        "detail": "main.video_record_opencv",
+        "documentation": {}
+    }
+]
